@@ -1,0 +1,253 @@
+body {
+    background-color: #000000;
+}
+
+.first_page {
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 910px;
+    max-width: 1440px;
+    margin: 0 auto 100px;
+}
+
+.second_page, .three_page, .four_page, .five_page {
+    max-width: 1440px;
+    margin: 0 auto 100px;
+}
+
+.header {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navigation_with_language {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.navigation_list {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-around;
+}
+
+.header_nav_element_link, .switch_language {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+.switch_language {
+    font-weight: bold;
+}
+
+.hero_personal_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 250px;
+    width: 500px;
+    height: 330px;
+    margin-left: 80px;
+}
+
+.hero_title {
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    line-height: 120px;
+    font-weight: 700;
+    color: #FFFFFF
+}
+
+.hero_text {
+    width: 470px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF
+}
+
+.btn_hire {
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    background-color: #BDAE82;
+
+}
+
+.skills {
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+
+.skill_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    height: 240px;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.skills_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.skill_title {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.skill_text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    justify-content: space-around;
+}
+
+.skill_img {
+    width: 62px;
+    height: 50px;
+}
+
+.section_portfolio_title, .section_skills_title, .section_video_title, .section_price_title {
+    font-family: 'Merriweather', serif;
+    width: 152px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    margin: 0 auto 100px;
+    color: #BDAE82;
+}
+
+.section_portfolio_title {
+    width: 220px !important;
+}
+
+.section_video_title {
+    width: 154px !important;
+}
+
+.section_price_title {
+    width: 120px !important;
+}
+
+.seasons_block {
+    display: flex;
+    justify-content: space-around;
+    max-width: 895px;
+    margin: 0 auto 100px;
+}
+
+.season_item_btn {
+    width: 220px;
+    height: 55px;
+    color: #BDAE82;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    background: transparent;
+    border: 1px solid #BDAE82;
+}
+
+.seasons_block_photos {
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(2, 560px);
+    grid-gap: 20px 20px;
+}
+
+
+fieldset {
+    margin: 0 auto;
+    width: 700px;
+    height: 80px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: center;
+    border-top: 2px solid #BDAE82;
+}
+
+.video_player_img {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.price_items {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.price_item {
+    display: flex;
+    width: 450px;
+    height: 505px;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid #BDAE82;
+    color: #BDAE82;
+}
+.price_item_title {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.price_item_cost {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    line-height: 48px;
+    color: #BDAE82;
+}
+.price_item_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+    text-align: center;
+    width: 364px;
+    height: 180px;
+    color: #FFFFFF;
+}
+
+.six_page {
+    background-image: url("assets/contacts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-width: 1440px;
+    margin: 0 auto 100px;
+}
