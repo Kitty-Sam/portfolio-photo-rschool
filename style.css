@@ -11,9 +11,12 @@ body {
     margin: 0 auto 100px;
 }
 
-.second_page, .three_page, .four_page, .five_page {
+.second_page, .three_page, .four_page, .five_page, .six_page, .footer {
     max-width: 1440px;
     margin: 0 auto 100px;
+}
+.six_page {
+    margin: 0 auto!important;
 }
 
 .header {
@@ -135,7 +138,7 @@ body {
     height: 50px;
 }
 
-.section_portfolio_title, .section_skills_title, .section_video_title, .section_price_title {
+.section_portfolio_title, .section_skills_title, .section_video_title, .section_price_title, .section_contact_title {
     font-family: 'Merriweather', serif;
     width: 152px;
     text-align: center;
@@ -155,6 +158,11 @@ body {
 
 .section_price_title {
     width: 120px !important;
+}
+
+.section_contact_title {
+    width: 227px !important;
+    margin: 0;
 }
 
 .seasons_block {
@@ -219,18 +227,21 @@ fieldset {
     border: 1px solid #BDAE82;
     color: #BDAE82;
 }
+
 .price_item_title {
     font-family: 'Merriweather', serif;
     font-size: 28px;
     line-height: 56px;
     color: #FFFFFF;
 }
+
 .price_item_cost {
     font-family: 'Merriweather', serif;
     font-size: 28px;
     line-height: 48px;
     color: #BDAE82;
 }
+
 .price_item_description {
     display: flex;
     flex-direction: column;
@@ -250,4 +261,40 @@ fieldset {
     height: 700px;
     max-width: 1440px;
     margin: 0 auto 100px;
+}
+
+.section_contacts_input_data, .section_contacts_textarea_data {
+    width: 450px;
+    height: 50px;
+    background: transparent;
+    padding-left: 10px;
+    border: 1px solid #BDAE82;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;
+}
+
+.section_contacts_textarea_data {
+    height: 100px !important;
+}
+
+.contacts {
+    /*border: 2px solid red;*/
+    width: 450px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 970px;
+    margin-right: 20px;
+}
+.footer_wrapper {
+    display: flex;
+    width: 1400px ;
+    height: 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
 }
