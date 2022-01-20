@@ -3,7 +3,7 @@ body {
 }
 
 .first_page {
-    background-image: url("assets/bg.png");
+    background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 910px;
@@ -258,7 +258,7 @@ fieldset {
 }
 
 .six_page {
-    background-image: url("assets/contacts.jpg");
+    background-image: url("../assets/contacts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -297,13 +297,13 @@ fieldset {
     max-width: 1440px;
     margin: 0 auto;
     height: 150px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
     justify-content: center;
 }
 
 .footer_wrapper {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
     width: 1400px;
     margin: 0 auto;
@@ -316,7 +316,7 @@ fieldset {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 50px;
