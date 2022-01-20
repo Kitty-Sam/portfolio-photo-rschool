@@ -11,12 +11,13 @@ body {
     margin: 0 auto 100px;
 }
 
-.second_page, .three_page, .four_page, .five_page, .six_page, .footer {
+.second_page, .three_page, .four_page, .five_page, .six_page {
     max-width: 1440px;
     margin: 0 auto 100px;
 }
+
 .six_page {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
 }
 
 .header {
@@ -247,7 +248,9 @@ fieldset {
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    /*border: 2px solid red;*/
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     width: 364px;
     height: 180px;
@@ -289,10 +292,20 @@ fieldset {
     margin-left: 970px;
     margin-right: 20px;
 }
-.footer_wrapper {
-    display: flex;
-    width: 1400px ;
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
     height: 150px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_wrapper {
+    border: 2px solid red;
+    display: flex;
+    width: 1400px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
