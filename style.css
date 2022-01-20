@@ -311,3 +311,25 @@ fieldset {
     align-items: center;
     color: #FFFFFF;
 }
+.common_info {
+    width: 182px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+.common_info_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+.common_info_social_links {
+    width: 188px;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+}
